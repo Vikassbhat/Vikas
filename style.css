@@ -210,6 +210,34 @@ h3{
     font-size: 14px;
     font-weight: 500;
 }
+@media (max-width:991px){
+    .cardBox{
+        grid-template-columns: repeat(1,1fr);
+    }
+@media(max-width:768px){
+    .details{
+        grid-template-columns: 1fr;
+    }
+}
+.recentorders{
+    overflow-x: auto;
+}
+.statusInProgress{
+    white-space:nowrap;
+}
+}
+@media(max-width:480px){
+    .cardBox{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cardheader h3{
+        font-size: 20px;
+    }
+    table{
+        justify-content: center;
+        align-items: center;
+    }
+}
 /* advantages  CSS */
 h3{
     color: black;
